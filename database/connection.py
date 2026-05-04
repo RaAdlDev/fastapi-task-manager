@@ -1,7 +1,7 @@
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
-
-engine = create_engine("sqlite+pysqlite:///todolisto.db")
+from core.settings import settings
+engine = create_engine(settings.database_url)
 SesionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 def get_db():
     db = SesionLocal()

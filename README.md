@@ -23,7 +23,7 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 | ORM | SQLAlchemy |
 | Auth | JSON Web Tokens (JWT) |
 | Server | Uvicorn |
-| Hashing | bycript |
+| Hashing | bcryipt |
 
 ---
 
@@ -34,12 +34,16 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 - Python 3.10 or higher
 - `pip` package manager
 
+### Public URL
+https://fastapi-task-manager-production-2f54.up.railway.app/
+
 ### Installation
 
 1. **Clone the repository**
 
    ```bash
    git clone https://github.com/RaAdlDev/fastapi-task-manager.git
+
    ```
 
 2. **Create and activate a virtual environment**
