@@ -8,4 +8,5 @@ python-dotenv
 python-multipart
 pydantic-settings
 psycopg2-binary
+pydantic[email]
 email-validator
