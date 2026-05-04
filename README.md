@@ -37,6 +37,10 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 ### Public URL
 https://fastapi-task-manager-production-2f54.up.railway.app/
 
+**Use Example**
+<img width="718" height="376" alt="example app" src="https://github.com/user-attachments/assets/fa7d74b0-9569-4e27-996b-622e08644708" />
+
+
 ### Installation
 
 1. **Clone the repository**
