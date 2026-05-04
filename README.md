@@ -83,8 +83,8 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `POST` | `/auth/register` | Register a new user |
-| `POST` | `/auth/login` | Login and receive a JWT token |
+| `POST` | `/register` | Register a new user |
+| `POST` | `/login` | Login and receive a JWT token |
 
 
 ### Tasks
