@@ -39,8 +39,7 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/to-dolisto.git
-   cd to-dolisto
+   git clone https://github.com/RaAdlDev/fastapi-task-manager.git
    ```
 
 2. **Create and activate a virtual environment**
@@ -79,12 +78,12 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 
 - Protected routers with Depends
 - Each task is associated with a user_id
-- The user id is automatically generated with uiid
+- The user id is automatically generated with uuid
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| `POST` | `/auth/register` | Register a new user |
-| `POST` | `/auth/login` | Login and receive a JWT token |
+| `POST` | `/register` | Register a new user |
+| `POST` | `/login` | Login and receive a JWT token |
 
 
 ### Tasks
