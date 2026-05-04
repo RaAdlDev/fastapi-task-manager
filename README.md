@@ -79,7 +79,7 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 
 - Protected routers with Depends
 - Each task is associated with a user_id
-- The user id is automatically generated with uiid
+- The user id is automatically generated with uuid
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
