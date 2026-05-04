@@ -40,7 +40,6 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 
    ```bash
    git clone https://github.com/RaAdlDev/fastapi-task-manager.git
-   cd to-dolisto
    ```
 
 2. **Create and activate a virtual environment**
