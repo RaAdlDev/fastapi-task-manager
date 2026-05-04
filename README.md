@@ -100,7 +100,7 @@ https://fastapi-task-manager-production-2f54.up.railway.app/
 |--------|----------|-------------|
 | `GET` | `/tasks` | List all tasks for the current user |
 | `POST` | `/tasks` | Create a new task |
-| `GET` | `/tasks/{id}` | Get a task by ID |
+| `GET` | `/task/{id}` | Get a task by ID |
 | `GET` | `/tasks/stats` | Get tasks stats |
 | `DELETE` | `/tasks/{id}` | Delete a task by ID |
 | `PATCH` | `/tasks/{id}` | Update a task by ID |
