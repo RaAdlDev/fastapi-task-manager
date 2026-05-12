@@ -23,7 +23,7 @@ A RESTful backend API for secure task management, built with Python, FastAPI JWT
 | ORM | SQLAlchemy |
 | Auth | JSON Web Tokens (JWT) |
 | Server | Uvicorn |
-| Hashing | bcryipt |
+| Hashing | bcrypt |
 
 ---
 
