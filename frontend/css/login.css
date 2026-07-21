@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: "Montserrat";
+    background-color: #F8FAFC;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    padding: 40px 20px 40px 20px;
+    background-color: #F1F5F9;
+    border-radius: 15px;
+}
+.form__item{
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solid #CBD5E1;
+    border-radius: 15px;
+    width: 100%;
+}
+.form__button{
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #2563EB;
+    border: none;
+    color: #ffff;
+    transition: background-color .2s ease
+}
+.form__button:hover{
+    background-color: #0341d9;
+    cursor: pointer;
+}
